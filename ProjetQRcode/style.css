@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+}
+nav {
+    background-color: blue;
+    height: 50px;
+    width: 100%;
+}
+
+.content {
+    background-color: red;
+    height: 80vh;
+    width: 100%;
+}
+
+footer {
+    background-color: green;
+    height: 50px;
+    width: 100%;
+}
+
+.divone {
+    background-color: yellow;
+    height: 100px;
+    width: 100%;
+}
+
+.divtwo {
+    background-color: purple;
+    height: 100px;
+    width: 100%;
+}
+
+.article {
+    background-color: black;
+    border: 1px solid white;
+    height: 100px;
+    width: 100%;
+}
+
+@media screen and (min-width: 1200px) {
+    .content {
+        display: flex;
+        flex-direction: row;
+    }
+}
