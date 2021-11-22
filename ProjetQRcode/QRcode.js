@@ -29,7 +29,6 @@ hamburger.addEventListener("click", function() {
     sidebar.classList.remove("active-side")
     laSidebarEstAffiche = true
   }
-  
 })
 
 
